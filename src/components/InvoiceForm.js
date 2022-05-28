@@ -179,7 +179,7 @@ class InvoiceForm extends React.Component {
                     onChange={(event) => this.editField(event)}
                     min="1"
                     style={{
-                      maxWidth: "70px",
+                      maxWidth: "150px",
                     }}
                     //required="required"
                     disabled
