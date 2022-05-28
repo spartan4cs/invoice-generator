@@ -16,7 +16,9 @@ class InvoiceForm extends React.Component {
       isOpen: false,
       currency: "₹",
       currentDate: "",
-      invoiceNumber: 1,
+      invoiceNumber: (
+        +new Date() + Math.floor(Math.random() * 999999)
+      ).toString(36),
       dateOfIssue: "",
       billTo: "",
       billToEmail: "",
