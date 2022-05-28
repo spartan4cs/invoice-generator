@@ -2,7 +2,6 @@
   "name": "invoice-generator",
   "version": "0.1.0",
   "private": true,
-  "main": "index.js",
   "homepage": "https://spartan4cs.github.io/invoice-generator",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -24,7 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "webpack serve --mode production",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
