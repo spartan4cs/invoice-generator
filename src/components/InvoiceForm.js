@@ -181,7 +181,8 @@ class InvoiceForm extends React.Component {
                     style={{
                       maxWidth: "70px",
                     }}
-                    required="required"
+                    //required="required"
+                    disabled
                   />
                 </div>
               </div>
